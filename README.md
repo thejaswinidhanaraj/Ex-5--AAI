@@ -12,8 +12,7 @@ Step 3: For each measurement, predict the next state using kf.predict().<BR>
 Step 4: Update the state estimate based on the measurement using kf.update().<BR>
 Step 5: Store the estimated state in a list.<BR>
 Step 6: Plot the true and estimated positions.<BR>
-## Program:
-```
+<H4>Program:</H4>
 import numpy as np
 import matplotlib.pyplot as plt
 class KalmanFi1ter:
@@ -56,7 +55,7 @@ plt.plot([s[0] for s in est_states],label="Estimate")
 plt.legend()
 plt.show()
 ```
-### Output:
+<H5>Output:</H5>
 ![image](https://github.com/user-attachments/assets/017fa4d9-f138-44c6-87a4-c15e67b9b0d8)
 
 <H3>Results:</H3>
