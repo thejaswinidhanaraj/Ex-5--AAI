@@ -56,8 +56,6 @@ plt.plot([s[0] for s in est_states],label="Estimate")
 plt.legend()
 plt.show()
 ```
-```
-
 <H3>Output:</H3>
 ![image](https://github.com/user-attachments/assets/017fa4d9-f138-44c6-87a4-c15e67b9b0d8)
 
